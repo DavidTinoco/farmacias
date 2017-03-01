@@ -11,7 +11,7 @@ for j in data["directorios"]["directorio"]:
     if len(j["fax"]) > 5:
         print j["nombre"]["content"]
 
-pausa = raw_input("Pulse cualquier tecla para continuar con la ejecución del programa")
+pausa = raw_input("Pulse intro para continuar con la ejecución del programa")
 
 #2 
 verano = 0
